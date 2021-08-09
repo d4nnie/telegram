@@ -1,0 +1,11 @@
+Source: telegram
+Maintainer: Daniil Shchepetilnikov <dshchepetilnikov@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>=9), qt5-image-formats-plugins (>= 5.9.0), libavcodec58 (>= 7:4.2), libavformat58 (>= 7:4.2), libavutil56 (>= 7:4.0), libc6 (>= 2.29), libdbusmenu-qt5-2 (>= 0.3.2), libgcc-s1 (>= 4.0), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libminizip1 (>= 1.1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqrcodegencpp1 (>= 1.2.1), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.9.0), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.9.0), libqt5widgets5 (>= 5.9.0), librlottie0-1 (>= 0~git20200305.a717479+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libx11-6, libxxhash0 (>= 0.6.5), qtbase-abi-5-12-8, zlib1g (>= 1:1.1.4)
+
+Package: telegram
+Architecture: amd64
+Depends: qt5-image-formats-plugins (>= 5.9.0), libavcodec58 (>= 7:4.2), libavformat58 (>= 7:4.2), libavutil56 (>= 7:4.0), libc6 (>= 2.29), libdbusmenu-qt5-2 (>= 0.3.2), libgcc-s1 (>= 4.0), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libminizip1 (>= 1.1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqrcodegencpp1 (>= 1.2.1), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.9.0), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.9.0), libqt5widgets5 (>= 5.9.0), librlottie0-1 (>= 0~git20200305.a717479+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libx11-6, libxxhash0 (>= 0.6.5), qtbase-abi-5-12-8, zlib1g (>= 1:1.1.4)
+Description: Custom Telegram package from officialy supported static build.
